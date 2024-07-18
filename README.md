@@ -1,27 +1,38 @@
-# TareasApp
+# Mi Aplicación Angular 17
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.8.
+Esta es una aplicación desarrollada con Angular 17. Utiliza NgRx para el manejo del estado y Jest para las pruebas.
 
-## Development server
+## Requisitos previos
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Antes de comenzar, asegúrate de tener instalado lo siguiente:
 
-## Code scaffolding
+- [Node.js](https://nodejs.org/) (versión 18 o superior)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- [Angular CLI](https://angular.io/cli) (versión 17)
 
-## Build
+# Checklist de Desarrollo
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Crear una aplicación con Angular (7 en adelante)
 
-## Running unit tests
+- [x] Crear una nueva aplicación Angular
+- [x] Configurar Bootstrap para la maquetación
+- [x] Definir estilos (colores, tamaños de texto, formularios, etc.) a criterio
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Página Login
 
-## Running end-to-end tests
+- [x] Crear un formulario con los siguientes campos y etiquetas:
+- [x] **Usuario**: Campo de texto con etiqueta "Usuario"
+- [x] **Contraseña**: Campo de texto con etiqueta "Contraseña"
+- [x] **Botón "Ingresar"**: Al hacer clic, debe verificar si los datos son correctos y redirigir a la pantalla de "Tareas"
+- [x] OPCIONAL PLUS: Guardar los datos en el store (NgRx)
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Pantalla de Tareas
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- [x] Crear un formulario con un solo input
+- [x] El input debe aceptar solo caracteres alfanuméricos
+- [x] **Botón "Agregar"** y la tecla "Enter" deben agregar la tarea a la lista y limpiar el input
+- [x] Lista de tareas
+- [x] Al agregar una tarea, el check debe estar desactivado
+- [x] El botón "X" debe estar presente para eliminar la tarea
+- [x] Al activar el check, el botón "X" debe quedar oculto, imposibilitando la eliminación de la tarea
+- [x] OPCIONAL PLUS: Consumir el usuario autenticado y mostrarlo en la parte superior de la pantalla
