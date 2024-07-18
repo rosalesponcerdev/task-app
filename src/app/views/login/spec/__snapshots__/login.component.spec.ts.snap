@@ -1,0 +1,461 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoginComponent Loggin Error 1`] = `
+<div
+  id="root2"
+>
+  <div
+    class="container"
+  >
+    <div
+      class="row align-items-center vh-100"
+    >
+      <div
+        class="col"
+      >
+        <div
+          class="w-50 mx-auto"
+        >
+          <fieldset
+            class="border border-2 px-3 pt-3 pb-5"
+          >
+            <legend
+              class="float-none m-0"
+            >
+              LOGIN
+            </legend>
+            <span
+              class="text-danger fw-bold"
+            >
+               | 
+            </span>
+            <form
+              class="row align-items-center ng-untouched ng-pristine ng-invalid"
+              novalidate=""
+            >
+              <div
+                class="col-8"
+              >
+                <div
+                  class="mb-3"
+                >
+                  <label
+                    class="form-label"
+                    for="usernameinput"
+                  >
+                    Usuario
+                  </label>
+                  <input
+                    autocomplete="off"
+                    class="form-control ng-untouched ng-pristine ng-invalid"
+                    formcontrolname="username"
+                    id="usernameinput"
+                    type="text"
+                  />
+                </div>
+                <div>
+                  <label
+                    class="form-label"
+                    for="passinput"
+                  >
+                    Contraseña
+                  </label>
+                  <input
+                    class="form-control ng-untouched ng-pristine ng-invalid"
+                    formcontrolname="password"
+                    id="passinput"
+                    type="password"
+                  />
+                </div>
+              </div>
+              <div
+                class="col-4 text-center"
+              >
+                <button
+                  class="btn btn-primary"
+                  disabled=""
+                  type="submit"
+                >
+                  <span>
+                    Ingresar
+                  </span>
+                  
+                  
+                </button>
+              </div>
+            </form>
+          </fieldset>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`LoginComponent Loggin Error 2`] = `
+<div
+  id="root2"
+>
+  <div
+    class="container"
+  >
+    <div
+      class="row align-items-center vh-100"
+    >
+      <div
+        class="col"
+      >
+        <div
+          class="w-50 mx-auto"
+        >
+          <fieldset
+            class="border border-2 px-3 pt-3 pb-5"
+          >
+            <legend
+              class="float-none m-0"
+            >
+              LOGIN
+            </legend>
+            <span
+              class="text-danger fw-bold"
+            >
+               | 
+            </span>
+            <form
+              class="row align-items-center ng-untouched ng-pristine ng-invalid"
+              novalidate=""
+            >
+              <div
+                class="col-8"
+              >
+                <div
+                  class="mb-3"
+                >
+                  <label
+                    class="form-label"
+                    for="usernameinput"
+                  >
+                    Usuario
+                  </label>
+                  <input
+                    autocomplete="off"
+                    class="form-control ng-untouched ng-pristine ng-invalid"
+                    formcontrolname="username"
+                    id="usernameinput"
+                    type="text"
+                  />
+                </div>
+                <div>
+                  <label
+                    class="form-label"
+                    for="passinput"
+                  >
+                    Contraseña
+                  </label>
+                  <input
+                    class="form-control ng-untouched ng-pristine ng-invalid"
+                    formcontrolname="password"
+                    id="passinput"
+                    type="password"
+                  />
+                </div>
+              </div>
+              <div
+                class="col-4 text-center"
+              >
+                <button
+                  class="btn btn-primary"
+                  disabled=""
+                  type="submit"
+                >
+                  <span>
+                    Ingresar
+                  </span>
+                  
+                  
+                </button>
+              </div>
+            </form>
+          </fieldset>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`LoginComponent Loggin Success 1`] = `
+<div
+  id="root1"
+>
+  <div
+    class="container"
+  >
+    <div
+      class="row align-items-center vh-100"
+    >
+      <div
+        class="col"
+      >
+        <div
+          class="w-50 mx-auto"
+        >
+          <fieldset
+            class="border border-2 px-3 pt-3 pb-5"
+          >
+            <legend
+              class="float-none m-0"
+            >
+              LOGIN
+            </legend>
+            <span
+              class="text-danger fw-bold"
+            >
+               | 
+            </span>
+            <form
+              class="row align-items-center ng-untouched ng-pristine ng-invalid"
+              novalidate=""
+            >
+              <div
+                class="col-8"
+              >
+                <div
+                  class="mb-3"
+                >
+                  <label
+                    class="form-label"
+                    for="usernameinput"
+                  >
+                    Usuario
+                  </label>
+                  <input
+                    autocomplete="off"
+                    class="form-control ng-untouched ng-pristine ng-invalid"
+                    formcontrolname="username"
+                    id="usernameinput"
+                    type="text"
+                  />
+                </div>
+                <div>
+                  <label
+                    class="form-label"
+                    for="passinput"
+                  >
+                    Contraseña
+                  </label>
+                  <input
+                    class="form-control ng-untouched ng-pristine ng-invalid"
+                    formcontrolname="password"
+                    id="passinput"
+                    type="password"
+                  />
+                </div>
+              </div>
+              <div
+                class="col-4 text-center"
+              >
+                <button
+                  class="btn btn-primary"
+                  disabled=""
+                  type="submit"
+                >
+                  <span>
+                    Ingresar
+                  </span>
+                  
+                  
+                </button>
+              </div>
+            </form>
+          </fieldset>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`LoginComponent Loggin Success 2`] = `
+<div
+  id="root1"
+>
+  <div
+    class="container"
+  >
+    <div
+      class="row align-items-center vh-100"
+    >
+      <div
+        class="col"
+      >
+        <div
+          class="w-50 mx-auto"
+        >
+          <fieldset
+            class="border border-2 px-3 pt-3 pb-5"
+          >
+            <legend
+              class="float-none m-0"
+            >
+              LOGIN
+            </legend>
+            <span
+              class="text-danger fw-bold"
+            >
+               | 
+            </span>
+            <form
+              class="row align-items-center ng-untouched ng-pristine ng-invalid"
+              novalidate=""
+            >
+              <div
+                class="col-8"
+              >
+                <div
+                  class="mb-3"
+                >
+                  <label
+                    class="form-label"
+                    for="usernameinput"
+                  >
+                    Usuario
+                  </label>
+                  <input
+                    autocomplete="off"
+                    class="form-control ng-untouched ng-pristine ng-invalid"
+                    formcontrolname="username"
+                    id="usernameinput"
+                    type="text"
+                  />
+                </div>
+                <div>
+                  <label
+                    class="form-label"
+                    for="passinput"
+                  >
+                    Contraseña
+                  </label>
+                  <input
+                    class="form-control ng-untouched ng-pristine ng-invalid"
+                    formcontrolname="password"
+                    id="passinput"
+                    type="password"
+                  />
+                </div>
+              </div>
+              <div
+                class="col-4 text-center"
+              >
+                <button
+                  class="btn btn-primary"
+                  disabled=""
+                  type="submit"
+                >
+                  <span>
+                    Ingresar
+                  </span>
+                  
+                  
+                </button>
+              </div>
+            </form>
+          </fieldset>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`LoginComponent should create 1`] = `
+<div
+  id="root0"
+>
+  <div
+    class="container"
+  >
+    <div
+      class="row align-items-center vh-100"
+    >
+      <div
+        class="col"
+      >
+        <div
+          class="w-50 mx-auto"
+        >
+          <fieldset
+            class="border border-2 px-3 pt-3 pb-5"
+          >
+            <legend
+              class="float-none m-0"
+            >
+              LOGIN
+            </legend>
+            <span
+              class="text-danger fw-bold"
+            >
+               | 
+            </span>
+            <form
+              class="row align-items-center ng-untouched ng-pristine ng-invalid"
+              novalidate=""
+            >
+              <div
+                class="col-8"
+              >
+                <div
+                  class="mb-3"
+                >
+                  <label
+                    class="form-label"
+                    for="usernameinput"
+                  >
+                    Usuario
+                  </label>
+                  <input
+                    autocomplete="off"
+                    class="form-control ng-untouched ng-pristine ng-invalid"
+                    formcontrolname="username"
+                    id="usernameinput"
+                    type="text"
+                  />
+                </div>
+                <div>
+                  <label
+                    class="form-label"
+                    for="passinput"
+                  >
+                    Contraseña
+                  </label>
+                  <input
+                    class="form-control ng-untouched ng-pristine ng-invalid"
+                    formcontrolname="password"
+                    id="passinput"
+                    type="password"
+                  />
+                </div>
+              </div>
+              <div
+                class="col-4 text-center"
+              >
+                <button
+                  class="btn btn-primary"
+                  disabled=""
+                  type="submit"
+                >
+                  <span>
+                    Ingresar
+                  </span>
+                  
+                  
+                </button>
+              </div>
+            </form>
+          </fieldset>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

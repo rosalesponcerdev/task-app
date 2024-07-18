@@ -1,0 +1,5 @@
+<ul class="list-group">
+  @for (task of tasks; track task.id) {
+  <app-task-item-ui [task]="task" />
+  }
+</ul>

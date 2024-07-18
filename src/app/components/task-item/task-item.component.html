@@ -1,0 +1,20 @@
+<li class="list-group-item">
+  <div class="row align-items-center">
+    <div class="col-auto py-2">
+      <input type="checkbox" class="form-check-input" [checked]="selectTask" (change)="changeSelectedState($event)" />
+    </div>
+    <div class="col py-2">
+      <p class="m-0">
+        {{ task.title }}
+      </p>
+    </div>
+
+    @if (!selectTask) {
+    <div class="col-auto">
+      <button type="button" class="btn btn-danger" (click)="deleteHandler()">
+        <i class="bi bi-x-lg"></i>
+      </button>
+    </div>
+    }
+  </div>
+</li>

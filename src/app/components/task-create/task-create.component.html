@@ -1,0 +1,19 @@
+<form class="row" [formGroup]="taskCreatePresenter.noteForm" (ngSubmit)="taskCreatePresenter.sendFormHandler()">
+  <div class="col-6">
+    <div class="row">
+      <div class="col">
+        <div class="row align-items-center">
+          <div class="col-auto">
+            <label>Tarea:</label>
+          </div>
+          <div class="col">
+            <input formControlName="title" type="text" class="form-control" maxlength="40" />
+          </div>
+        </div>
+      </div>
+      <div class="col-auto">
+        <button [disabled]="!taskCreatePresenter.noteForm.valid" type="submit" class="btn btn-primary">Agregar</button>
+      </div>
+    </div>
+  </div>
+</form>

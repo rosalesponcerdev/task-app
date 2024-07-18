@@ -1,0 +1,169 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TaskItemComponent should change the checkbox state and hide the delete button when the checkbox is selected 1`] = `
+<div
+  id="root4"
+>
+  <li
+    class="list-group-item"
+  >
+    <div
+      class="row align-items-center"
+    >
+      <div
+        class="col-auto py-2"
+      >
+        <input
+          class="form-check-input"
+          type="checkbox"
+        />
+      </div>
+      <div
+        class="col py-2"
+      >
+        <p
+          class="m-0"
+        >
+           title 
+        </p>
+      </div>
+      <div
+        class="col-auto"
+      >
+        <button
+          class="btn btn-danger"
+          type="button"
+        >
+          <i
+            class="bi bi-x-lg"
+          />
+        </button>
+      </div>
+      
+    </div>
+  </li>
+</div>
+`;
+
+exports[`TaskItemComponent should change the checkbox state and hide the delete button when the checkbox is selected 2`] = `
+<div
+  id="root4"
+>
+  <li
+    class="list-group-item"
+  >
+    <div
+      class="row align-items-center"
+    >
+      <div
+        class="col-auto py-2"
+      >
+        <input
+          class="form-check-input"
+          type="checkbox"
+        />
+      </div>
+      <div
+        class="col py-2"
+      >
+        <p
+          class="m-0"
+        >
+           title 
+        </p>
+      </div>
+      
+    </div>
+  </li>
+</div>
+`;
+
+exports[`TaskItemComponent should correctly display the delete button 1`] = `
+<div
+  id="root2"
+>
+  <li
+    class="list-group-item"
+  >
+    <div
+      class="row align-items-center"
+    >
+      <div
+        class="col-auto py-2"
+      >
+        <input
+          class="form-check-input"
+          type="checkbox"
+        />
+      </div>
+      <div
+        class="col py-2"
+      >
+        <p
+          class="m-0"
+        >
+           title 
+        </p>
+      </div>
+      <div
+        class="col-auto"
+      >
+        <button
+          class="btn btn-danger"
+          type="button"
+        >
+          <i
+            class="bi bi-x-lg"
+          />
+        </button>
+      </div>
+      
+    </div>
+  </li>
+</div>
+`;
+
+exports[`TaskItemComponent should create 1`] = `
+<div
+  id="root0"
+>
+  <li
+    class="list-group-item"
+  >
+    <div
+      class="row align-items-center"
+    >
+      <div
+        class="col-auto py-2"
+      >
+        <input
+          class="form-check-input"
+          type="checkbox"
+        />
+      </div>
+      <div
+        class="col py-2"
+      >
+        <p
+          class="m-0"
+        >
+           title 
+        </p>
+      </div>
+      <div
+        class="col-auto"
+      >
+        <button
+          class="btn btn-danger"
+          type="button"
+        >
+          <i
+            class="bi bi-x-lg"
+          />
+        </button>
+      </div>
+      
+    </div>
+  </li>
+</div>
+`;

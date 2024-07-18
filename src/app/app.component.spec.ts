@@ -1,10 +1,22 @@
 import { TestBed } from '@angular/core/testing';
 import { AppComponent } from './app.component';
+import { provideStore } from '@ngrx/store';
+import { sessionReducer } from './store/session/session.reducer';
+import { taskReducer } from './store/task/task.reducer';
+import { SessionEffects } from './store/session/session.effects';
+import { provideEffects } from '@ngrx/effects';
 
 describe('AppComponent', () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({
       imports: [AppComponent],
+      providers: [
+        provideStore({
+          session: sessionReducer,
+          task: taskReducer,
+        }),
+        provideEffects(SessionEffects),
+      ],
     }).compileComponents();
   });
 
@@ -12,18 +24,5 @@ describe('AppComponent', () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
     expect(app).toBeTruthy();
-  });
-
-  it(`should have the 'tareas-app' title`, () => {
-    const fixture = TestBed.createComponent(AppComponent);
-    const app = fixture.componentInstance;
-    expect(app.title).toEqual('tareas-app');
-  });
-
-  it('should render title', () => {
-    const fixture = TestBed.createComponent(AppComponent);
-    fixture.detectChanges();
-    const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, tareas-app');
   });
 });
